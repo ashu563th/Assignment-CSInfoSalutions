@@ -33,7 +33,7 @@ public class firsttestcase {
 	
 	FileUtils.copyFile(tempororyFile, parmentFile);
 String	Url=driver.getCurrentUrl();
-	if(Url.equals("https://www.getcalley.com/page-sitemap.xml"));
+	if(Url.equals("https://www.getcalley.com/page-sitemap.xml"))
 	{
    System.out.println("pass");
    
